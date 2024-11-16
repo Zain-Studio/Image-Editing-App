@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.error-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    /* Intentional Error: Box shadow applied with incorrect syntax */
+    box-shadow: 0px 0px 15px rgba(16, 14, 14, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.error-code {
+    font-size: 10rem;
+    margin: 0;
+    /* Intentional Error: Color property misspelled */
+    color: #198754; 
+}
+
+.error-message {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.error-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #198754;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Intentional Error: Incorrect use of hover pseudo-class */
+.error-link:hover {
+    background-color: #198754;
+}
